@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 32px 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-div img {
+    width: 161px;
+    height: 48px;
+}
+
+.second-div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-left: 350px;
+}
+
+.second-div li {
+    list-style: none;
+}
+
+.second-div a {
+    text-decoration: none;
+    width: 47px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #121212;
+    transition: 300ms;
+
+
+}
+
+.second-div a:hover {
+    color: orangered;
+}
+
+.third-div {
+    display: flex;
+    gap: 18px;
+}
+
+.download-app {
+    width: 162px;
+    height: 56px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    background-color: white;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
+
+.register {
+    width: 114px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #FF5634;
+    background-color: #FF5634;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.div-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-top h3 {
+    width: 157px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.0800000429153442px;
+    text-align: center;
+    transition: 300ms;
+    gap: 7px;
+
+}
+
+.div-top h3:hover {
+    color: orangered;
+}
+
+.div-top h2 {
+    width: 520px;
+    height: 54px;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53.99px;
+    text-align: center;
+
+}
+
+.div-top p {
+    width: 674px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: center;
+    color: gray;
+    transform: translateY(70px);
+
+}
+
+.div-top h4 {
+    width: 63px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: center;
+    transform: translateY(55px) translateX(190px);
+    color: #656565;
+    
+}
+
+#one-div{
+    margin-top: 100px;
+}
